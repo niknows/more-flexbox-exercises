@@ -1,0 +1,60 @@
+/*--BROWSER RESET--*/
+html, body {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-color: #1abc9c;
+  font-family: Verdana;
+  color: #222;
+}
+
+/*--REUSABLE CODE--*/
+.text-box, .container, .feature-section {
+  padding:30px;
+  background-color: white;
+  margin: 50px auto;
+}
+.feature-section{
+  display: flex
+}
+
+/*--ARTICLE LAYOUT--*/
+p {
+  font-family: serif;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+ 
+}
+/*flex-container*/
+.text-box,.feature-section{
+  display: flex; 
+  width: 70%;
+}
+/*flex-items*/
+.main-heading{
+ flex:1;
+ order: 2;
+}
+.sidebar-one{
+ flex:1;
+ order: 1;
+}
+.sidebar-two{
+ flex:1;
+ order: 3;
+}
+
+/*--FORM--*/
+.container {width: 50%;}
+.form-row {
+  display: flex;
+  padding: 10px;  
+}
+label {margin-right: 5px;}
+input {
+  flex: 1;
+  border-color: rgba(0,0,0,0.180);
+  border-radius: 1rem;
+  padding: 4px;
+}
