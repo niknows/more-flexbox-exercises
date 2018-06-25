@@ -1,7 +1,14 @@
 .container {
-   
+   max-width: 90%;
    display: flex;
    flex-direction: row; /*set main axis*/
-   justify-content: space-evenly;  /*move the items along the main axis*/
- 
+   justify-content: flex-end;
+  
+}
+
+.container > div {
+    flex: 1; /*flex-grow, flex-shrink, flex-basis*/
+}
+.container > .search {
+    flex:2;
 }
