@@ -1,0 +1,7 @@
+.container {
+   
+   display: flex;
+   flex-direction: row; /*set main axis*/
+   justify-content: space-evenly;  /*move the items along the main axis*/
+ 
+}
