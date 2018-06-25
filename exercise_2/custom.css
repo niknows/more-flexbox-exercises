@@ -1,14 +1,8 @@
 .container {
-   max-width: 90%;
    display: flex;
-   flex-direction: row; /*set main axis*/
-   justify-content: flex-end;
+   height: 100%;
+   align-items: center;
   
 }
 
-.container > div {
-    flex: 1; /*flex-grow, flex-shrink, flex-basis*/
-}
-.container > .search {
-    flex:2;
-}
+
