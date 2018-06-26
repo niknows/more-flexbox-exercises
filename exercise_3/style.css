@@ -1,0 +1,26 @@
+body,html{
+    height: 100%;
+}
+body{
+    background-color: #F8EFBA;
+    font-size: 20px;
+    font-family: lato;
+}
+nav {
+    width: 90%;
+    margin: 50px auto 0 auto;
+    border: 3px solid #EAB543;
+    text-align: center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+div{
+    color: #F8EFBA;
+    padding: 10px;
+}
+nav div:first-child, nav div:last-child{
+background-color: #58B19F;
+}
+nav div:nth-of-type(2){
+    background-color: #F97F51;
+}
