@@ -1,0 +1,18 @@
+.container {
+   display: flex;  
+}
+.home{
+    /*    
+    
+    
+    flex-shrink:1;
+    */
+    flex-shrink:0;
+    flex-grow:0;
+    flex-basis:200px; /*que é o WIDTH do flexbox model*/
+}
+.logout{
+    flex: 10 1 200px;
+}
+
+
