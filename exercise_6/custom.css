@@ -2,4 +2,14 @@
    display: flex;  
 }
 
+.item-1{
+   order:1; 
+}
 
+.item-2{
+   order:0; 
+}
+
+.item-3{
+    order:0;
+}
