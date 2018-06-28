@@ -44,5 +44,13 @@ body{
     .container{
         flex-wrap: wrap;
     }
+    .container > li{
+        flex: 1 1 43%;
+    }
+    .search-input{
+        width: 50%;
+        text-align: center;
+    }
+    
 }
 
